@@ -1,0 +1,12 @@
+ul {
+    display: flex;
+    flex-direction: row;
+ 
+}
+
+li {
+    background-color: aquamarine;
+    text-transform: uppercase;
+    margin-left: 10px;
+
+}
