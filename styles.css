@@ -2,6 +2,10 @@ body {
     font-family: "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;    
 }
 
+* {
+    box-sizing: border-box;
+}
+
 /*
 ------------------ Menu
 */
@@ -22,9 +26,37 @@ li {
     margin-left: 10px;
     font-size: 12px;
     letter-spacing: -0.12px;
+    color: #ffffffb2;
+    transition:color .5s;
+}
+
+li:hover {
+   
     color: #ffffff;
 }
 
-.icon {
-    height: 20px;    
+
+
+/*
+----------------- media query
+*/
+
+@media screen and (max-width: 830px) {
+    .openNav {
+        display:none;
+    }
+    .asideCenter {
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+
+}
+
+@media screen and (min-width: 831px) {
+    .openAside {
+        display:none;
+    } 
+
 }
