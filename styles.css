@@ -1,12 +1,31 @@
+body {
+    font-family: "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;    
+}
+
+/*
+------------------ Menu
+*/
+nav {
+    background-color:#333333;   
+    
+}
 ul {
     display: flex;
     flex-direction: row;
- 
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 44px;
 }
 
 li {
-    background-color: aquamarine;
-    text-transform: uppercase;
     margin-left: 10px;
+    font-size: 12px;
+    line-height: 44px;
+    letter-spacing: -0.12px;
+    color: #ffffff;
+}
 
+.icon {
+    height: 20px;    
 }
